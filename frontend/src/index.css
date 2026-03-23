@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.navbar {
+  padding: 15px;
+  background: #1e293b;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.home {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.repo-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.repo-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  background: #3b82f6;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.insight {
+  margin: 5px 0;
+}
